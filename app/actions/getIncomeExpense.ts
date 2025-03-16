@@ -37,4 +37,5 @@ async function getIncomeExpense(): Promise<IncomeExpense>{
         return { error: 'Database error' };
     }
 }
+
 export default getIncomeExpense
